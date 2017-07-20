@@ -1,12 +1,14 @@
 {
-  "name": "nodeJS",
+  "name": "omnio-aquarium",
   "version": "1.0.0",
-  "description": "",
+  "description": "Control of aquarium using omnio-omega2.",
+  "main": "omnio-aquarium.js",
   "scripts": {
-    	"start": "gpioTest.js",
+    "start": "gpioTest.js",
 	"test": "test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "Apache-2.0",
+  "dependencies" : {
+    "omega_gpio" : "https://github.com/sidwarkd/omega_js.git"
+  }
 }
