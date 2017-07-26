@@ -5,10 +5,11 @@
   "main": "omnio-aquarium.js",
   "scripts": {
     "start": "gpioTest.js",
-	"test": "test.js"
+    "test": "test.js"
   },
   "license": "Apache-2.0",
   "dependencies" : {
-    "omega_gpio" : "https://github.com/sidwarkd/omega_js.git"
+    "omega_gpio" : "https://github.com/sidwarkd/omega_js.git",
+    "exec" : "0.2.1"
   }
 }
