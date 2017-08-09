@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Control of aquarium using omnio-omega2.",
   "main": "omnio-aquarium.js",
-  "scripts": {
-    "start": "gpioTest.js",
-    "test": "test.js"
-  },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kolomaznik/onion-aquarium.git"
+  },
   "dependencies" : {
     "omega_gpio" : "https://github.com/sidwarkd/omega_js.git",
-    "exec" : "0.2.1"
+    "exec" : "0.2.1",
+    "slackbots": "^1.0.2"
   }
 }
